@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>DMAs</name>
+  <description><![CDATA[]]></description>
+  <Style id="style2">
+    <LineStyle>
+      <color>40000000</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>73FF0000</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="style1">
+    <LineStyle>
+      <color>40000000</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>73009900</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="style3">
+    <LineStyle>
+      <color>40000000</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>730000FF</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Placemark>
+    <name>Shape 1</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.065430,46.417664,0.000000
+            -117.055664,46.659492,0.000000
+            -116.616211,44.381458,0.000000
+            -120.747070,42.790028,0.000000
+            -123.208008,43.431648,0.000000
+            -121.538086,45.685715,0.000000
+            -122.065430,46.417664,0.000000
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Placemark>
+    <name>Shape 2</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -116.791992,46.659492,0.000000
+            -113.276367,46.599136,0.000000
+            -112.661133,44.506954,0.000000
+            -113.012695,42.660896,0.000000
+            -114.946289,41.288815,0.000000
+            -116.000977,41.552441,0.000000
+            -116.000977,43.175804,0.000000
+            -116.791992,44.318607,0.000000
+            -116.616211,44.757137,0.000000
+            -116.791992,46.659492,0.000000
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Placemark>
+    <name>Shape 3</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -120.395508,42.854492,0.000000
+            -122.241211,41.024117,0.000000
+            -120.834961,38.662636,0.000000
+            -118.461914,39.277622,0.000000
+            -116.264648,35.365162,0.000000
+            -114.858398,36.926476,0.000000
+            -116.264648,41.749458,0.000000
+            -116.088867,43.367786,0.000000
+            -116.967773,44.255692,0.000000
+            -120.395508,42.854492,0.000000
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</Document>
+</kml>
